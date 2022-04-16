@@ -1,0 +1,66 @@
+.veolet .menu .Co, .veolet .menu .Blog, .veolet .menu .WORK, .veolet .menu .About, .veolet .menu .Home {
+  font-size: 18px;
+  background: #87509C;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.veolet {
+  position: relative;
+  height: 41.4295628036%;
+  background-color: #87509C;
+}
+.veolet .logotyp {
+  width: 119px;
+  height: 38px;
+  background: url(/img/logo@1X.png) 90% no-repeat;
+  position: relative;
+  top: 56px;
+  left: 210px;
+}
+.veolet .menu {
+  position: absolute;
+  top: 70px;
+  right: 13.6%;
+}
+.veolet .menu .Home {
+  background: #643A79;
+  margin: 0px 30px 0px 0px;
+}
+.veolet .menu .About {
+  margin: 0px 30px 0px 0px;
+}
+.veolet .menu .WORK {
+  margin: 0px 30px 0px 0px;
+}
+.veolet .menu .Blog {
+  margin: 0px 30px 0px 0px;
+}
+.veolet .text {
+  display: block;
+  font-family: Arial;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+  color: #F7F3EA;
+  width: 906px;
+  height: 88px;
+  margin: 147px auto 0px;
+}
+.veolet .WORK_2 {
+  height: 80px;
+  width: 293px;
+  margin: 26px 39.7% 0px;
+  background: #EB7D4B;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 3px 3px 3px #EB7D4B;
+          box-shadow: 0px 3px 3px 3px #EB7D4B;
+  font-size: 20px;
+  color: #F7F3EA;
+  font-weight: 800;
+}
+.veolet button {
+  width: 77px;
+  height: 32px;
+}

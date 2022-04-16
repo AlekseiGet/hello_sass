@@ -1,0 +1,376 @@
+@import "null.scss";
+@import "fiolet_1.scss";
+@import "green.scss";
+@import "grey.scss";
+//шаблон
+ @mixin sz_gr($l,$h){
+        width: $l;
+        height: $h;
+    }//размер высота + ширина @include sz_gr;
+%button{
+     button:hover{background: #e38a9b;}
+}//подсветка кнопок @extend %button;
+body{
+    width: 1441px;
+    margin: 0px auto; 
+}         
+.white{
+    border: 1px solid #FFFFFF;
+    height: 656px;
+    @include bcgr(#FFFFFF);
+    position: relative;
+    h2{
+        @include sz(326px,30px);
+        font-family: Arial;
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 4px;
+        text-align: center;
+        margin: 118px auto 0px;
+        white-space: nowrap;
+    }
+    .line{
+        @include sz(88px,5px);
+        margin: 20px auto;
+        background-color: #91b3cc;
+    }
+    .text_head{
+        display: block;
+        @include sz(568px,45px);
+        font-family: Arial;
+        line-height: 20px;
+        font-size: 18px;
+        letter-spacing: 0.3px;
+        text-align: center;
+        margin: 0px auto 83px;
+    }
+    div:not(.line) {
+         @include sz(182px,212px); 
+    }
+    .chkala_90{
+        position: absolute;
+        bottom: 122px;
+        left: 10%;
+        background: url(../img/90%25.png) top /161px no-repeat;
+    }
+    .chkala_75{
+        position: absolute;
+        bottom: 122px;
+        left: 32%;
+        background: url(../img/75%25.png) top /161px no-repeat;
+    }
+    .chkala_70{
+        position: absolute;
+        bottom: 122px;
+        left: 54%;
+        background: url(../img/70%25.png) top /161px no-repeat;
+        .signatyre{
+            margin: 0px 0px 0px -15px;
+        }
+    }
+    .chkala_85{
+        position: absolute;
+        bottom: 122px;
+        left: 76%;
+        background: url(../img/85%25.png) top /161px no-repeat;
+    }
+    .signatyre{
+        font-family: Arial;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.3px;
+        display: block; 
+        white-space: nowrap;
+        text-align:center;
+        position: relative;
+        top: 190px;
+        left: 0px;
+    }
+}
+.beige{
+   border: 1px solid #FFDD99;
+    height: 1424px;
+    @include bcgr(#FFDD99);
+    @extend %button;
+    h2{
+        @include sz_gr(331px,30px);
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 4px;
+        text-align: center;
+        margin: 121px auto 20px;
+    }
+    .line{
+         @include sz_gr(88px,5px);
+        background-color:#E5C37F;
+        margin: auto;
+    }
+    .text{
+        @include sz_gr(515px,45px);
+        display: block;
+        font-family: Arial;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0.3px;
+        text-align: center;
+        margin: 20px auto 41px;
+    }
+    .button_apps{
+         @include sz_gr(388px,41px);
+         margin:0px auto 65px;
+        button:hover{
+            background: #e38a9b;
+        }
+         button{
+            @include sz_gr(85px,39px);
+            margin:0 4px;
+            border-radius: 5px;
+            background-color: #EBC985;
+            font-family: Arial;
+            font-size: 20px;     
+        }
+    }
+    .icon_4{
+        position: relative;
+        @include sz_gr(1103px,777px);
+        margin: auto;
+        >div{
+            @include sz_gr(541px,357px);
+        }
+        span{
+            display: block;
+            font-family: Arial;
+            font-size: 18px;
+            margin:333px auto 0px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .isometric{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: url(../img/isometr.png) top/541px 311px no-repeat;
+        }
+        .time{
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: url(../img/time.png) top/541px 311px no-repeat;
+        }
+        .viro{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: url(../img/viro.png) top/541px 311px no-repeat;
+        }
+        .blog{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background: url(../img/blog.png) top/541px 311px no-repeat;
+        }  
+    }
+    .botton{
+        display: block;
+        @include sz_gr(294px,71px);
+        border-radius: 5px;
+        margin: 82px auto 0;
+        background-color: #17C2A4;
+        font-family: Arial;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 0.2px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+     
+}
+.red{
+     border: 1px solid #D74680;
+    height: 895px;
+    @include bcgr(#D74680);
+    position: relative;
+    color: #fff;
+    h2{
+        @include sz_gr(606px,30px);
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 4px;
+        text-align: center;
+        white-space: nowrap;
+        margin: 120px auto 20px ;
+            }
+    .line{
+        margin: 0px auto;
+        @include sz_gr(88px,5px);
+        background-color: #693b4d;
+    }
+    .text_head{
+        display: block;
+        @include sz_gr(170px,15px);
+        font-family: Arial;
+        font-size: 18px;
+        letter-spacing: 0.3px;
+        margin: 20px auto 0;
+    }
+    .foto{
+        @include sz_gr(96px,96px);
+        border-radius: 48px;
+        background-color: #787878;
+    }
+    .texxt{
+        @include sz_gr(350px,85px);
+        position: absolute;
+        top: 13px;
+        left: 147px;
+        font-family: Arial;
+        font-size: 18px;
+        font-style: italic;
+        line-height: 25px;
+        letter-spacing: 0.3px;
+
+    }
+    .name{
+        @include sz_gr(195px,18px);
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+        margin: 30px 0px 0px 147px;
+    }
+    .go_messengr{
+        font-family: Arial;
+        font-size: 16px;
+        letter-spacing: 0.3px;
+        margin: 5px 0px 0px 147px;
+
+    }
+    .chanel{
+         position: absolute;
+        bottom: 446px;
+        left: 169px;
+        @include sz_gr(472px,168px);
+      
+    }
+    .adriana{
+         position: absolute;
+        bottom: 442px;
+        left: 767px;
+        @include sz_gr(496px,172px);
+         
+    }
+    .anne{
+         position: absolute;
+        bottom: 128px;
+        left: 169px;
+        @include sz_gr(496px,173px);
+        
+    }
+    .emma{
+        position: absolute;
+        bottom: 132px;
+        left: 767px;
+        @include sz_gr(512px,169px);
+        
+    }
+}
+.blue{
+    border: 1px solid #3C5499;
+    height: 820px;
+    @include bcgr(#3C5499);
+    
+    color: #fff;
+    h2{
+        font-family: Arial;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 4px;
+        text-align: center;
+        margin: 121px auto 0px;
+
+    }
+    .line{
+        margin: 20px auto;
+        @include sz_gr(88px,5px);
+        background-color: #273A71; 
+    }
+    .text_head{
+        display: block;
+     font-family: Arial;
+     font-size: 18px;
+     line-height: 26px;
+     letter-spacing: 0.3px;
+     text-align: center;
+   
+    }
+    .box{
+        @include sz_gr(861px,260px);
+        margin: 75px auto 0px;
+        position: relative;
+        font-family: Arial;
+        font-size: 40px;
+    }
+    .your_name{
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include sz_gr(416px,57px);
+        background: #fff;
+    }
+    .emeil{
+        position: absolute;
+        top: 0;
+        right: 0;
+        @include sz_gr(415px,57px);
+        background: #fff;
+        
+    }
+    .desc{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        
+    }
+    @extend %button;
+    .SEND{
+        display: block;
+        @include sz_gr(295px,71px);
+        background-color: #30BAE7;
+        border-radius: 5px;
+        box-shadow: 0px 3px 3px 3px #299EC5;
+        margin: 58px auto 0;
+        font-family: Arial;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 0.2px;
+        color: #fff;
+
+    }
+}
+.dno{
+    border: 1px solid #344B8E;
+    height: 113px;
+    @include bcgr(#344B8E);
+    
+    font-family: Arial;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    a:hover{
+        color:#e38a9b; 
+    }
+    a{
+        display: inline-block;
+       color: #fff; 
+        margin: 40px 45px 0px 0px;
+    }       
+    
+} 

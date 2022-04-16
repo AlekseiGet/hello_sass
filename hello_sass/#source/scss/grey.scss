@@ -1,0 +1,198 @@
+.grey{
+     border: 1px solid #E7F1F8;
+    height: 915px;
+    @include bcgr(#E7F1F8);
+    position: relative;
+     h2{
+         font-family: Arial;
+         font-size: 40px;
+         font-weight: 700;
+         line-height: 30px;
+         letter-spacing: 4px;
+         text-align: center;
+         white-space: nowrap;
+         @include sz(auto, 30px);
+         margin: 120px auto 16px;
+         
+    }
+    .line{
+        @include sz(87px, 6px);
+        background: #91b3cc;
+        margin: 0 auto 16px;
+    }
+    .text_head{
+        display: block;
+        @include sz(auto, 19px);
+        font-family: Arial;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 0.3px;
+        text-align: center;
+    }
+    .name{
+        font-family: Arial;
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 0.4px;
+        text-align:center;
+        white-space:nowrap;
+        margin: 41px 0px 10px 0px;
+    }
+    .foto{
+        @include sz(200px, 200px);
+        border-radius: 100px;
+        background: #91b3cc;
+    }
+    .coment{
+        font-family: Arial;
+        font-size: 16px;
+        letter-spacing: 0.3px;
+        text-align: center;
+        margin: 0px 0px 10px 0px;
+        color: #30BAE7;
+    }
+    .text{
+         font-family: Arial;
+         font-size: 16px;
+         line-height: 20px;
+         letter-spacing: 0.3px;
+         text-align: center;
+         margin: 0px -6px;
+    }
+    .messengr{
+        position: relative;
+        @include sz(200px,32px);
+        margin: 25px 0;
+        @extend %button;
+            .facebook{
+                @include sz(32px, 32px);
+                border-radius: 16px;
+                position: absolute;
+                bottom: 0px;
+                left: 8px;
+                background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/FB.png) 0 0/32px 32px no-repeat;
+                
+            }
+            .twitter{
+                  @include sz(32px, 32px);
+                border-radius: 16px;
+                position: absolute;
+                bottom: 0px;
+                left: 60px;
+                background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/TWIT.png) 0 0/31px 32px no-repeat;
+        }
+            .instagram{
+                  @include sz(32px, 32px);
+                border-radius: 16px;
+                position: absolute;
+                bottom: 0px;
+                right: 60px;
+                background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/INST.png) 0 0/32px 32px no-repeat;
+        }
+            .imeil{
+                  @include sz(32px, 32px);
+                border-radius: 16px;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/IM.png) 0 0/32px 32px no-repeat;
+        }
+    }
+    .ANNE{
+         position: absolute;
+        bottom: 126px;
+        left: 10%;
+        @include sz(200px, 490px);
+       
+        .messengr{
+            .twitter{
+                 position:absolute;
+                bottom: 0;
+                left: 57px;
+            }
+            .instagram{
+                 position:absolute;
+                bottom: 0;
+                right: 57px;
+            }
+            .imeil{
+                position:absolute;
+                bottom: 0;
+                right: 8px; 
+            }
+    }
+    }
+    .Kate{
+        position: absolute;
+        bottom: 126px;
+        left: 32%;
+        @include sz(200px, 490px);
+       
+        .messengr{
+            .twitter{
+                 position:absolute;
+                bottom: 0;
+                left: 34px;
+            }
+            .instagram{
+                position: absolute;
+                bottom: 0;
+                left: 84px;    
+            }
+            .imeil{
+                 position:absolute;
+                bottom: 0;
+                right: 34px;
+            }       
+    }
+    }
+    .Olivia{
+        position: absolute;
+         bottom: 126px;
+        left: 54%;;
+        @include sz(200px, 490px);
+      
+        .messengr{
+            .twitter{
+                 position:absolute;
+                bottom: 0;
+                left: 57px;
+            }
+            .instagram{
+                 position:absolute;
+                bottom: 0;
+                right: 57px;
+            }
+            .imeil{
+                 position:absolute;
+                bottom: 0;
+                right: 8px;
+            }
+    }
+        }
+    .Ashley{
+        position: absolute;
+        bottom: 126px;
+        left: 76%;
+        @include sz(200px, 490px);
+        .messengr{
+            .facebook{
+                position: absolute;
+                bottom: 0;
+                left: 34px;
+            }
+            .twitter{
+                position: absolute;
+                bottom: 0;
+                left: 84px;
+            }
+            .imeil{
+                 position:absolute;
+                bottom: 0;
+                right: 34px;
+            }
+        }
+    }
+}           
+
+   
