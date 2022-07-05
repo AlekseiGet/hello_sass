@@ -1,0 +1,827 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.veolet .Co, .veolet .Blog, .veolet .WORK, .veolet .About, .veolet .Home {
+  font-size: 18px;
+  background: #87509C;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.veolet {
+  position: relative;
+  height: 597px;
+  background-color: #87509C;
+}
+.veolet .logotyp {
+  width: 119px;
+  height: 38px;
+  background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/logo@1X.png) 90% no-repeat;
+  position: relative;
+  top: 56px;
+  left: 15%;
+}
+.veolet .menu {
+  position: absolute;
+  top: 70px;
+  left: 57%;
+}
+.veolet .Home {
+  background: #643A79;
+  margin: 0px 30px 0px 0px;
+}
+.veolet .About {
+  margin: 0px 30px 0px 0px;
+}
+.veolet .WORK {
+  margin: 0px 30px 0px 0px;
+}
+.veolet .Blog {
+  margin: 0px 30px 0px 0px;
+}
+.veolet .text {
+  display: block;
+  font-family: Arial;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
+  color: #F7F3EA;
+  width: 906px;
+  height: 88px;
+  margin: 200px auto 0px;
+}
+.veolet .WORK_2 {
+  height: 80px;
+  width: 293px;
+  margin: 53px 37% 146px;
+  background: #EB7D4B;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 3px 3px 3px #EB7D4B;
+          box-shadow: 0px 3px 3px 3px #EB7D4B;
+  font-size: 20px;
+  color: #F7F3EA;
+  font-weight: 800;
+}
+.veolet button {
+  width: 77px;
+  height: 32px;
+}
+
+.green {
+  border: 1px solid #17C2A4;
+  height: 748px;
+  background-color: #17C2A4;
+}
+.green .rocket_science, .green .developmen, .green .design, .green .brandin {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+  color: #F7F3EA;
+}
+.green span {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #F7F3EA;
+}
+.green h2 {
+  margin: 120px auto 3px;
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 30px;
+  white-space: nowrap;
+  letter-spacing: 4px;
+  text-align: center;
+  width: auto;
+  height: 40px;
+  color: #F7F3EA;
+}
+.green .line {
+  width: 87px;
+  height: 4px;
+  margin: 0 auto;
+  background: #14A58C;
+}
+.green .text_green {
+  display: block;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin: 6px auto 0px;
+  width: 633px;
+  height: 80px;
+}
+.green .imagn {
+  position: relative;
+  margin: 70px auto 128px;
+}
+.green .flag {
+  position: absolute;
+  top: -20px;
+  left: 10%;
+  width: 192px;
+  height: 295px;
+  background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/Flag%20icon@1X.png) top/120px 124px no-repeat;
+}
+.green .pencil {
+  position: absolute;
+  top: -20px;
+  left: 32%;
+  width: 173px;
+  height: 300px;
+  background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/Crayon%20icon@1X.png) top/95px 133px no-repeat;
+}
+.green .setap {
+  position: absolute;
+  top: -20px;
+  left: 54%;
+  width: 197px;
+  height: 295px;
+  background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/Gears%20icon@1X.png) top/160px 127px no-repeat;
+}
+.green .rocket {
+  position: absolute;
+  top: -20px;
+  left: 76%;
+  width: 189px;
+  height: 299px;
+  background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/Rocket%20icon@1X.png) top/104px 135px no-repeat;
+}
+.green .brandin {
+  margin: 180px 0px 0px 0px;
+}
+.green .design {
+  margin: 180px 0px 0px 0px;
+}
+.green .developmen {
+  margin: 180px 0px 0px 0px;
+}
+.green .rocket_science {
+  margin: 180px 0px 0px -9px;
+  white-space: nowrap;
+}
+.green span {
+  display: block;
+  margin: 15px -9px 0px;
+}
+
+.grey {
+  border: 1px solid #E7F1F8;
+  height: 915px;
+  background-color: #E7F1F8;
+  position: relative;
+}
+.grey h2 {
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 4px;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+  height: 30px;
+  margin: 120px auto 16px;
+}
+.grey .line {
+  width: 87px;
+  height: 6px;
+  background: #91b3cc;
+  margin: 0 auto 16px;
+}
+.grey .text_head {
+  display: block;
+  width: auto;
+  height: 19px;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.grey .name {
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 41px 0px 10px 0px;
+}
+.grey .foto {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: #91b3cc;
+}
+.grey .coment {
+  font-family: Arial;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin: 0px 0px 10px 0px;
+  color: #30BAE7;
+}
+.grey .text {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin: 0px -6px;
+}
+.grey .messengr {
+  position: relative;
+  width: 200px;
+  height: 32px;
+  margin: 25px 0;
+}
+.grey .messengr .facebook {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  position: absolute;
+  bottom: 0px;
+  left: 8px;
+  background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/FB.png) 0 0/32px 32px no-repeat;
+}
+.grey .messengr .twitter {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  position: absolute;
+  bottom: 0px;
+  left: 60px;
+  background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/TWIT.png) 0 0/31px 32px no-repeat;
+}
+.grey .messengr .instagram {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  position: absolute;
+  bottom: 0px;
+  right: 60px;
+  background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/INST.png) 0 0/32px 32px no-repeat;
+}
+.grey .messengr .imeil {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/IM.png) 0 0/32px 32px no-repeat;
+}
+.grey .ANNE {
+  position: absolute;
+  bottom: 126px;
+  left: 10%;
+  width: 200px;
+  height: 490px;
+}
+.grey .ANNE .messengr .twitter {
+  position: absolute;
+  bottom: 0;
+  left: 57px;
+}
+.grey .ANNE .messengr .instagram {
+  position: absolute;
+  bottom: 0;
+  right: 57px;
+}
+.grey .ANNE .messengr .imeil {
+  position: absolute;
+  bottom: 0;
+  right: 8px;
+}
+.grey .Kate {
+  position: absolute;
+  bottom: 126px;
+  left: 32%;
+  width: 200px;
+  height: 490px;
+}
+.grey .Kate .messengr .twitter {
+  position: absolute;
+  bottom: 0;
+  left: 34px;
+}
+.grey .Kate .messengr .instagram {
+  position: absolute;
+  bottom: 0;
+  left: 84px;
+}
+.grey .Kate .messengr .imeil {
+  position: absolute;
+  bottom: 0;
+  right: 34px;
+}
+.grey .Olivia {
+  position: absolute;
+  bottom: 126px;
+  left: 54%;
+  width: 200px;
+  height: 490px;
+}
+.grey .Olivia .messengr .twitter {
+  position: absolute;
+  bottom: 0;
+  left: 57px;
+}
+.grey .Olivia .messengr .instagram {
+  position: absolute;
+  bottom: 0;
+  right: 57px;
+}
+.grey .Olivia .messengr .imeil {
+  position: absolute;
+  bottom: 0;
+  right: 8px;
+}
+.grey .Ashley {
+  position: absolute;
+  bottom: 126px;
+  left: 76%;
+  width: 200px;
+  height: 490px;
+}
+.grey .Ashley .messengr .facebook {
+  position: absolute;
+  bottom: 0;
+  left: 34px;
+}
+.grey .Ashley .messengr .twitter {
+  position: absolute;
+  bottom: 0;
+  left: 84px;
+}
+.grey .Ashley .messengr .imeil {
+  position: absolute;
+  bottom: 0;
+  right: 34px;
+}
+
+.blue button:hover, .beige button:hover, .veolet button:hover, .grey .messengr button:hover {
+  background: #e38a9b;
+}
+
+body {
+  width: 1441px;
+  margin: 0px auto;
+}
+
+.white {
+  border: 1px solid #FFFFFF;
+  height: 656px;
+  background-color: #FFFFFF;
+  position: relative;
+}
+.white h2 {
+  width: 326px;
+  height: 30px;
+  font-family: Arial;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 4px;
+  text-align: center;
+  margin: 118px auto 0px;
+  white-space: nowrap;
+}
+.white .line {
+  width: 88px;
+  height: 5px;
+  margin: 20px auto;
+  background-color: #91b3cc;
+}
+.white .text_head {
+  display: block;
+  width: 568px;
+  height: 45px;
+  font-family: Arial;
+  line-height: 20px;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin: 0px auto 83px;
+}
+.white div:not(.line) {
+  width: 182px;
+  height: 212px;
+}
+.white .chkala_90 {
+  position: absolute;
+  bottom: 122px;
+  left: 10%;
+  background: url(../img/90%25.png) top/161px no-repeat;
+}
+.white .chkala_75 {
+  position: absolute;
+  bottom: 122px;
+  left: 32%;
+  background: url(../img/75%25.png) top/161px no-repeat;
+}
+.white .chkala_70 {
+  position: absolute;
+  bottom: 122px;
+  left: 54%;
+  background: url(../img/70%25.png) top/161px no-repeat;
+}
+.white .chkala_70 .signatyre {
+  margin: 0px 0px 0px -15px;
+}
+.white .chkala_85 {
+  position: absolute;
+  bottom: 122px;
+  left: 76%;
+  background: url(../img/85%25.png) top/161px no-repeat;
+}
+.white .signatyre {
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  display: block;
+  white-space: nowrap;
+  text-align: center;
+  position: relative;
+  top: 190px;
+  left: 0px;
+}
+
+.beige {
+  border: 1px solid #FFDD99;
+  height: 1424px;
+  background-color: #FFDD99;
+}
+.beige h2 {
+  width: 331px;
+  height: 30px;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 4px;
+  text-align: center;
+  margin: 121px auto 20px;
+}
+.beige .line {
+  width: 88px;
+  height: 5px;
+  background-color: #E5C37F;
+  margin: auto;
+}
+.beige .text {
+  width: 515px;
+  height: 45px;
+  display: block;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin: 20px auto 41px;
+}
+.beige .button_apps {
+  width: 388px;
+  height: 41px;
+  margin: 0px auto 65px;
+}
+.beige .button_apps button:hover {
+  background: #e38a9b;
+}
+.beige .button_apps button {
+  width: 85px;
+  height: 39px;
+  margin: 0 4px;
+  border-radius: 5px;
+  background-color: #EBC985;
+  font-family: Arial;
+  font-size: 20px;
+}
+.beige .icon_4 {
+  position: relative;
+  width: 1103px;
+  height: 777px;
+  margin: auto;
+}
+.beige .icon_4 > div {
+  width: 541px;
+  height: 357px;
+}
+.beige .icon_4 span {
+  display: block;
+  font-family: Arial;
+  font-size: 18px;
+  margin: 333px auto 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.beige .icon_4 .isometric {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../img/isometr.png) top/541px 311px no-repeat;
+}
+.beige .icon_4 .time {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(../img/time.png) top/541px 311px no-repeat;
+}
+.beige .icon_4 .viro {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url(../img/viro.png) top/541px 311px no-repeat;
+}
+.beige .icon_4 .blog {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url(../img/blog.png) top/541px 311px no-repeat;
+}
+.beige .botton {
+  display: block;
+  width: 294px;
+  height: 71px;
+  border-radius: 5px;
+  margin: 82px auto 0;
+  background-color: #17C2A4;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.red {
+  border: 1px solid #D74680;
+  height: 895px;
+  background-color: #D74680;
+  position: relative;
+  color: #fff;
+}
+.red h2 {
+  width: 606px;
+  height: 30px;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 4px;
+  text-align: center;
+  white-space: nowrap;
+  margin: 120px auto 20px;
+}
+.red .line {
+  margin: 0px auto;
+  width: 88px;
+  height: 5px;
+  background-color: #693b4d;
+}
+.red .text_head {
+  display: block;
+  width: 170px;
+  height: 15px;
+  font-family: Arial;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+  margin: 20px auto 0;
+}
+.red .foto {
+  width: 96px;
+  height: 96px;
+  border-radius: 48px;
+  background-color: #787878;
+}
+.red .texxt {
+  width: 350px;
+  height: 85px;
+  position: absolute;
+  top: 13px;
+  left: 147px;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 25px;
+  letter-spacing: 0.3px;
+}
+.red .name {
+  width: 195px;
+  height: 18px;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  margin: 30px 0px 0px 147px;
+}
+.red .go_messengr {
+  font-family: Arial;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  margin: 5px 0px 0px 147px;
+}
+.red .chanel {
+  position: absolute;
+  bottom: 446px;
+  left: 169px;
+  width: 472px;
+  height: 168px;
+}
+.red .adriana {
+  position: absolute;
+  bottom: 442px;
+  left: 767px;
+  width: 496px;
+  height: 172px;
+}
+.red .anne {
+  position: absolute;
+  bottom: 128px;
+  left: 169px;
+  width: 496px;
+  height: 173px;
+}
+.red .emma {
+  position: absolute;
+  bottom: 132px;
+  left: 767px;
+  width: 512px;
+  height: 169px;
+}
+
+.blue {
+  border: 1px solid #3C5499;
+  height: 820px;
+  background-color: #3C5499;
+  color: #fff;
+}
+.blue h2 {
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 4px;
+  text-align: center;
+  margin: 121px auto 0px;
+}
+.blue .line {
+  margin: 20px auto;
+  width: 88px;
+  height: 5px;
+  background-color: #273A71;
+}
+.blue .text_head {
+  display: block;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.blue .box {
+  width: 861px;
+  height: 260px;
+  margin: 75px auto 0px;
+  position: relative;
+  font-family: Arial;
+  font-size: 40px;
+}
+.blue .your_name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 416px;
+  height: 57px;
+  background: #fff;
+}
+.blue .emeil {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 415px;
+  height: 57px;
+  background: #fff;
+}
+.blue .desc {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.blue .SEND {
+  display: block;
+  width: 295px;
+  height: 71px;
+  background-color: #30BAE7;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 3px 3px #299EC5;
+          box-shadow: 0px 3px 3px 3px #299EC5;
+  margin: 58px auto 0;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.dno {
+  border: 1px solid #344B8E;
+  height: 113px;
+  background-color: #344B8E;
+  font-family: Arial;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+.dno a:hover {
+  color: #e38a9b;
+}
+.dno a {
+  display: inline-block;
+  color: #fff;
+  margin: 40px 45px 0px 0px;
+}

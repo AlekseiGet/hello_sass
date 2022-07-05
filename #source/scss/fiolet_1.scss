@@ -1,0 +1,82 @@
+%brd{
+    border: 1px solid#000;
+}
+@mixin bcgr($cl){
+    background-color:$cl;
+}
+@mixin sz($w,$h){
+    width: $w;
+    height: $h;
+}
+%btn{
+          font-size: 18px;
+          background: #87509C;
+          text-transform: uppercase;
+          font-weight: 800;   
+}
+.veolet{
+    position: relative;
+    height: 597px;
+    @include bcgr(#87509C);
+  .logotyp{
+     width: 119px;
+      height: 38px;
+      background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/logo@1X.png)90% no-repeat;
+      position: relative;
+      top: 56px;
+      left: 15%;
+       }
+  .menu{
+     position: absolute;
+      top: 70px;
+      left: 57%;
+     @extend %button;
+    }
+
+      .Home{
+          @extend %btn;
+          background: #643A79;
+           margin: 0px 30px 0px 0px;
+         
+      }    
+      .About{
+          @extend %btn;
+           margin: 0px 30px 0px 0px;
+      }
+      .WORK{
+          @extend %btn;
+           margin: 0px 30px 0px 0px;
+      }
+      .Blog{
+          @extend %btn;
+           margin: 0px 30px 0px 0px;
+      }
+      .Co{@extend %btn;}
+  .text{
+      display: block;
+      font-family: Arial;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 42px;
+      text-align: center;
+      color: #F7F3EA;
+      width: 906px;
+      height: 88px;
+      margin: 200px auto 0px;
+    }
+  .WORK_2{
+      height: 80px;
+      width: 293px;
+      margin: 53px 37% 146px;
+      background: #EB7D4B;
+      border-radius: 8px;
+      box-shadow: 0px 3px 3px 3px #EB7D4B;
+      font-size: 20px;
+      color: #F7F3EA;
+      font-weight: 800;
+    }
+   button{
+         @include sz(77px,32px);
+         }
+   @extend %button; 
+}

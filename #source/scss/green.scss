@@ -1,0 +1,112 @@
+.green{
+  border: 1px solid #17C2A4;
+    height: 748px;
+    @include bcgr(#17C2A4);
+    %pdps{
+        font-family: Arial;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.4px;
+        color: #F7F3EA;
+
+    }
+    %txtgr{
+        font-family: Arial;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: center;
+        color: #F7F3EA;
+    }
+    @mixin sz_gr($l,$h){
+        width: $l;
+        height: $h;
+    }
+    
+    h2{
+        margin: 120px auto 3px;
+        font-family: Arial;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 30px;
+        white-space: nowrap;
+        letter-spacing: 4px;
+        text-align: center;
+        @include sz_gr(auto, 40px);
+        color: #F7F3EA;
+    }
+    .line{
+        @include sz_gr(87px, 4px);
+        margin: 0 auto;
+        background: #14A58C;
+    }
+    .text_green{
+        display: block;
+        font-family: Arial;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0.3px;
+        text-align: center;
+        margin: 6px auto 0px ;
+        @include sz_gr(633px, 80px);
+    }
+    .imagn{
+       position: relative;
+        margin:70px auto 128px; 
+        }
+    .flag{
+        position: absolute;
+        top: -20px;
+        left: 10%;
+        @include sz_gr(192px, 295px);
+        background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/Flag%20icon@1X.png)top/120px 124px no-repeat;
+    }
+    .pencil{
+        position: absolute;
+        top: -20px;
+        left: 32%;
+        @include sz_gr(173px, 300px);
+        background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/Crayon%20icon@1X.png)top/95px 133px no-repeat;
+    }
+    .setap{
+         position: absolute;
+        top: -20px;
+        left: 54%;
+        @include sz_gr(197px, 295px);
+        background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/Gears%20icon@1X.png)top/160px 127px no-repeat;
+    }
+    .rocket{
+        position: absolute;
+        top: -20px;
+        left: 76%;
+        @include sz_gr(189px, 299px);
+        background: url(C:/Users/Алексей/Desktop/hello_sass/hello_sass/img/Rocket%20icon@1X.png)top/104px 135px no-repeat;
+    }
+    .brandin{
+        @extend %pdps;
+        margin: 180px 0px 0px 0px;
+        }
+    .design{
+        @extend %pdps;
+        margin: 180px 0px 0px 0px;
+    }
+    .developmen{
+        @extend %pdps;
+        margin: 180px 0px 0px 0px;
+    }
+    .rocket_science{
+        @extend %pdps;
+        margin: 180px 0px 0px -9px;
+        white-space: nowrap;
+    }
+    span{
+        display: block;
+        @extend %txtgr; 
+        margin: 15px -9px 0px;
+    }
+ 
+    
+}
